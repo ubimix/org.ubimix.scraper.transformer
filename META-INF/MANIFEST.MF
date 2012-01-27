@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pageset
+Bundle-SymbolicName: org.webreformatter.scrapper.transformer
+Bundle-Version: 0.1.5.SNAPSHOT
+Import-Package: javax.xml.namespace,
+ org.w3c.dom,
+ org.webreformatter.commons.uri;version="0.1.5.SNAPSHOT",
+ org.webreformatter.commons.uri.path;version="0.1.5.SNAPSHOT",
+ org.webreformatter.commons.xml;version="1.1.5",
+ org.webreformatter.commons.xml.atom;version="1.1.5"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Export-Package: org.webreformatter.scrapper.transformer;version="0.9.0"
