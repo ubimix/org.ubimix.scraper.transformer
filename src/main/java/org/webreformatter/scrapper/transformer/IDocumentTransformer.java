@@ -9,9 +9,9 @@ import org.webreformatter.commons.xml.atom.AtomFeed;
 
 /**
  * @author arkub
- * 
  */
 public interface IDocumentTransformer {
-    AtomFeed transformDocument(Uri url, XmlWrapper doc) throws XmlException,
-            IOException;
+    AtomFeed transformDocument(Uri url, XmlWrapper doc)
+        throws XmlException,
+        IOException;
 }

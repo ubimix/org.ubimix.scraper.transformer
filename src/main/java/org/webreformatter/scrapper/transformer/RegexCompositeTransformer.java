@@ -18,9 +18,8 @@ import org.webreformatter.commons.xml.atom.AtomFeed;
  * is used.
  * 
  * @see CompositeTransformer
- * 
  * @author arkub
- * 
+ * @author kotelnikov
  */
 
 public class RegexCompositeTransformer implements IDocumentTransformer {
@@ -45,7 +44,8 @@ public class RegexCompositeTransformer implements IDocumentTransformer {
     }
 
     public AtomFeed transformDocument(Uri url, XmlWrapper doc)
-            throws XmlException, IOException {
+        throws XmlException,
+        IOException {
         AtomFeed result = null;
         String str = url.toString();
         for (Map.Entry<Pattern, IDocumentTransformer> entry : fMap.entrySet()) {

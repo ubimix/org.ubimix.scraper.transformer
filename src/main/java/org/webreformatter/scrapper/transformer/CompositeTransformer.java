@@ -16,9 +16,7 @@ import org.webreformatter.commons.xml.atom.AtomFeed;
  * prefix is used (the longest common prefix) for identifying the transformer to
  * be used.
  * 
- * 
  * @author kotelnikov
- * 
  */
 public class CompositeTransformer implements IDocumentTransformer {
 
@@ -55,7 +53,8 @@ public class CompositeTransformer implements IDocumentTransformer {
     }
 
     public AtomFeed transformDocument(Uri url, XmlWrapper doc)
-            throws XmlException, IOException {
+        throws XmlException,
+        IOException {
         Path path = UriToPath.getPath(url);
         String str = path.toString();
         AtomFeed result = null;

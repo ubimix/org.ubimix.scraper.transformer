@@ -13,6 +13,9 @@ import org.webreformatter.commons.xml.XmlWrapper.CompositeNamespaceContext;
 import org.webreformatter.commons.xml.XmlWrapper.SimpleNamespaceContext;
 import org.webreformatter.commons.xml.XmlWrapper.XmlContext;
 
+/**
+ * @author kotelnikov
+ */
 public class TransformerUtils {
 
     public static List<XmlWrapper> getElementList(XmlWrapper xml, String tagName) {
