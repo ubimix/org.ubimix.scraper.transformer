@@ -55,7 +55,10 @@ public class CompositeTransformer implements IDocumentTransformer {
     public AtomFeed transformDocument(Uri url, XmlWrapper doc)
         throws XmlException,
         IOException {
-        Path path = UriToPath.getPath(url);
+        Uri.Builder builder = url.getBuilder();
+        builder.getPathBuilder().setFileName(null);
+        builder.setQuery((String) null);
+        Path path = UriToPath.getPath(builder.build());
         String str = path.toString();
         AtomFeed result = null;
         IDocumentTransformer normalizer = fUrlMapping.getNearestValue(str);
