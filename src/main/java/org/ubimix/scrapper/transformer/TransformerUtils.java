@@ -1,17 +1,17 @@
-package org.webreformatter.scrapper.transformer;
+package org.ubimix.scrapper.transformer;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.w3c.dom.Element;
-import org.webreformatter.commons.uri.Uri;
-import org.webreformatter.commons.xml.XmlAcceptor;
-import org.webreformatter.commons.xml.XmlAcceptor.XmlVisitor;
-import org.webreformatter.commons.xml.XmlException;
-import org.webreformatter.commons.xml.XmlWrapper;
-import org.webreformatter.commons.xml.XmlWrapper.CompositeNamespaceContext;
-import org.webreformatter.commons.xml.XmlWrapper.SimpleNamespaceContext;
-import org.webreformatter.commons.xml.XmlWrapper.XmlContext;
+import org.ubimix.commons.uri.Uri;
+import org.ubimix.commons.xml.XmlAcceptor;
+import org.ubimix.commons.xml.XmlAcceptor.XmlVisitor;
+import org.ubimix.commons.xml.XmlException;
+import org.ubimix.commons.xml.XmlWrapper;
+import org.ubimix.commons.xml.XmlWrapper.CompositeNamespaceContext;
+import org.ubimix.commons.xml.XmlWrapper.SimpleNamespaceContext;
+import org.ubimix.commons.xml.XmlWrapper.XmlContext;
 
 /**
  * @author kotelnikov

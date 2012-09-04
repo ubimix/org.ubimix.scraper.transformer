@@ -1,4 +1,4 @@
-package org.webreformatter.scrapper.transformer;
+package org.ubimix.scrapper.transformer;
 
 import java.io.IOException;
 import java.util.LinkedHashMap;
@@ -6,10 +6,10 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.webreformatter.commons.uri.Uri;
-import org.webreformatter.commons.xml.XmlException;
-import org.webreformatter.commons.xml.XmlWrapper;
-import org.webreformatter.commons.xml.atom.AtomFeed;
+import org.ubimix.commons.uri.Uri;
+import org.ubimix.commons.xml.XmlException;
+import org.ubimix.commons.xml.XmlWrapper;
+import org.ubimix.commons.xml.atom.AtomFeed;
 
 /**
  * Dispatcher to external transformers. It uses regular expressions to delegate

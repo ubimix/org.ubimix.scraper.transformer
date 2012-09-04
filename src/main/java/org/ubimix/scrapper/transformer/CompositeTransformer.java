@@ -1,14 +1,14 @@
-package org.webreformatter.scrapper.transformer;
+package org.ubimix.scrapper.transformer;
 
 import java.io.IOException;
 
-import org.webreformatter.commons.uri.Path;
-import org.webreformatter.commons.uri.Uri;
-import org.webreformatter.commons.uri.UriToPath;
-import org.webreformatter.commons.uri.path.PathManager;
-import org.webreformatter.commons.xml.XmlException;
-import org.webreformatter.commons.xml.XmlWrapper;
-import org.webreformatter.commons.xml.atom.AtomFeed;
+import org.ubimix.commons.uri.Path;
+import org.ubimix.commons.uri.Uri;
+import org.ubimix.commons.uri.UriToPath;
+import org.ubimix.commons.uri.path.PathManager;
+import org.ubimix.commons.xml.XmlException;
+import org.ubimix.commons.xml.XmlWrapper;
+import org.ubimix.commons.xml.atom.AtomFeed;
 
 /**
  * Dispatcher to external transformers. The transformations are based on a map

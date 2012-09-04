@@ -1,14 +1,14 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Pageset
-Bundle-SymbolicName: org.webreformatter.scrapper.transformer
-Bundle-Version: 0.9.0
+Bundle-SymbolicName: org.ubimix.scrapper.transformer
+Bundle-Version: 1.2.1
 Import-Package: javax.xml.namespace,
  org.w3c.dom,
- org.webreformatter.commons.uri;version="1.1.5",
- org.webreformatter.commons.uri.path;version="1.1.5",
- org.webreformatter.commons.xml;version="1.1.5",
- org.webreformatter.commons.xml.atom;version="1.1.5"
-Bundle-RequiredExecutionEnvironment: J2SE-1.5
+ org.ubimix.commons.uri;version="1.2.1",
+ org.ubimix.commons.uri.path;version="1.2.1",
+ org.ubimix.commons.xml;version="1.2.1",
+ org.ubimix.commons.xml.atom;version="1.2.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
-Export-Package: org.webreformatter.scrapper.transformer;version="0.9.0"
+Export-Package: org.ubimix.scrapper.transformer;version="1.2.1"
