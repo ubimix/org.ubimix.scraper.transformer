@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Pageset
-Bundle-SymbolicName: org.ubimix.scrapper.transformer
+Bundle-SymbolicName: org.ubimix.scraper.transformer
 Bundle-Version: 1.2.1
 Import-Package: javax.xml.namespace,
  org.w3c.dom,
@@ -11,4 +11,4 @@ Import-Package: javax.xml.namespace,
  org.ubimix.commons.xml.atom;version="1.2.1"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
-Export-Package: org.ubimix.scrapper.transformer;version="1.2.1"
+Export-Package: org.ubimix.scraper.transformer;version="1.2.1"
